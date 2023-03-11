@@ -1,8 +1,8 @@
 * {
     font-family: Arial, sans-serif;
     font-size: 15px;
-    margin: 0;
-    padding: 0;
+    margin: 5px 5px;
+    padding: 5px 5px;
 }
 
 h1 {
@@ -26,32 +26,49 @@ h2 {
     grid-template-rows: 1fr 2fr 2fr 0.5fr 0.5fr;
 }
 
-head{
+.cabecera{
     grid-area: cabecera;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    background-color: aqua;
+    border: 2.5px solid black;
 }
 
 .informacionBasica{
     grid-area: informacion;
+    background-color: aquamarine;
+    border: 2.5px solid black;
 }
 
 .formacion{
     grid-area: formacion;
+    background-color: red;
+    border: 2.5px solid black;
 }
 
 .resumen{
     grid-area: resumen;
+    background-color: brown;
+    border: 2.5px solid black;
 }
 
 .experiencia{
     grid-area: experiencia;
+    background-color: blueviolet;
+    border: 2.5px solid black;
 }
 
 .habilidades{
     grid-area: habilidades;
+    background-color: green;
+    border: 2.5px solid black;
 }
 
-.idioma{
+.idiomas{
     grid-area: idioma;
+    background-color: greenyellow;
+    border: 2.5px solid black;
 }
 
 
